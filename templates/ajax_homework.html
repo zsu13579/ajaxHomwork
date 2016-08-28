@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>ajax homework</title>
+		<link rel="stylesheet" type="text/css" href="../static/css/style.css"/>
+		<script src="../static/js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../static/js/mycookies.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../static/js/ajax-homework.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="menu container">
+				<div class="menu-left">
+					<img src="../static/img/baidulogo.png" class="logo"/>
+					<form action="javascript:;" class="searchform">
+						<input type="text" class="searchipt" name="vkey"/>
+						<input type="submit" id="sbt" name="sbt" class="searchbtn" value="百度一下" />						
+					</form>
+					<div class="suggestion">
+						<!--<li>csdn</li>
+						<li>scala</li>
+						<li>spark</li>-->
+					</div>
+					<div class="suggestion_result">
+						<!--<li>csdn</li>
+						<li>scala</li>
+						<li>spark</li>-->
+					</div>
+				</div>
+				<!--menu left end-->
+				<div class="menu-right fr">
+				</div>	
+				<!--main right end-->
+			</div>
+			<!--menu container end-->
+		</div>
+		<!--header end--> 	
+		<p class="test">1</p>
+
+	<!--<script>
+		function do_ajax(){
+//		 	$.get("/do_ajax/", {"vkey": vkey}, function(data){
+//         	if(data.code=="success"){
+//             $(".suggestion_result").css("background-color","green");
+//         	}else{
+//              $(".suggestion_result").css("background-color","red");
+//          }
+////          $(".suggestion_result").html(data.message);
+//      	});
+        	$(".searchipt").val("test");
+		};
+	</script>-->
+	</body>	
+</html>
